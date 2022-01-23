@@ -9,4 +9,6 @@ Authors: Mark Needham and Amy E. Hodler
 
 Course: Spark Scala coding framework, testing, Structured streaming
  
- Intructors: FutureX Skill (Udemy)
+Intructors: FutureX Skill (Udemy)
+
+Spark3 (spark-3.0.3-bin-hadoop2.7)
