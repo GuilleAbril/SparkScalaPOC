@@ -23,7 +23,7 @@ object MainGraphBatch {
 
     logger.info("spark.sql.shuffle.partitions: " + spark.conf.get("spark.sql.shuffle.partitions"))
 
-    val dataPath = "src/test/scala/data/"
+    val dataPath = "src/test/scala/data/transport"
     val nodes = spark.read.option("header", value = true).csv(dataPath + "transport-nodes.csv")
     val directRelsDf = spark.read.option("header", value = true).csv(dataPath + "transport-relationships.csv")
     val reverseDirectRelsDf = directRelsDf
